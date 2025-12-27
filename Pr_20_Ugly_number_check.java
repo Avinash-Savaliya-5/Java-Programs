@@ -22,6 +22,7 @@ public class Pr_20_Ugly_number_check{
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a number: ");
         int num = sc.nextInt();
 
         Pr_20_Ugly_number_check obj = new Pr_20_Ugly_number_check();
