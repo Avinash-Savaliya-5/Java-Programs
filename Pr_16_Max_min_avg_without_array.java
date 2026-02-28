@@ -16,8 +16,8 @@ public class Pr_16_Max_min_avg_without_array {
         for(int i=2; i<=num; i++){
             System.out.print("Enter "+i+" number : ");
             n = sc.nextInt();
-            max = Math.max(max, n);
-            min = Math.min(min, n);
+            max = (n > max) ? n : max;
+            min = (n < min) ? n : min;
             sum += n;
         }
         System.out.println("Maximum : " + max);

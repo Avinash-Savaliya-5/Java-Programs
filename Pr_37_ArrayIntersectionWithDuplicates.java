@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class Pr_37_ArrayIntersectionWithDuplicates{
-    public void arrayIntersectionWithDuplicates(int[] nums1, int[] nums2){
+    public static void arrayIntersectionWithDuplicates(int[] nums1, int[] nums2){
         Arrays.sort(nums1);
         Arrays.sort(nums2);
         int n1 = nums1.length;
@@ -31,7 +31,7 @@ public class Pr_37_ArrayIntersectionWithDuplicates{
             return;
         }
         System.out.println(l1.toString());
-        return ;
+        return;
     }
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
@@ -51,8 +51,7 @@ public class Pr_37_ArrayIntersectionWithDuplicates{
             nums2[i] = sc.nextInt();
         }
 
-        Pr_37_ArrayIntersectionWithDuplicates obj_37 = new Pr_37_ArrayIntersectionWithDuplicates();
-        obj_37.arrayIntersectionWithDuplicates(nums1, nums2);
-
+        arrayIntersectionWithDuplicates(nums1, nums2);
+        sc.close();
     }
 }

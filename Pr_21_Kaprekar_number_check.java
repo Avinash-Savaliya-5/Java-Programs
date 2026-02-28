@@ -7,7 +7,7 @@ public class Pr_21_Kaprekar_number_check{
         int num_pow = 1;
         for(int i=0; i<num_str.length()/2; i++){
             num_pow = num_pow * 10;
-        } 
+        }
         num1 = num_square / num_pow;
         num2 = num_square % num_pow;
         sum = num1+num2;
