@@ -27,11 +27,8 @@ public class Pr_21_Kaprekar_number_check{
             else{
                 return false;
             }
-
-        }
-        
+        }   
     }
-
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number: ");
